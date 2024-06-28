@@ -9,11 +9,10 @@ namespace FizzBuzz
         public static IList<string> FizzBuzz(int n)
         {
             List<string> output = new List<string>();
-            string word;
 
             for (int i = 0; i < n; i++)
             {
-                word = "";
+                string word = "";
                 if ((i + 1) % 3 == 0)
                 {
                     word += "Fizz";
@@ -22,9 +21,9 @@ namespace FizzBuzz
                 {
                     word += "Buzz";
                 }
-                if(word == "")
+                if (word == "")
                 {
-                    word += $"{i + 1}";
+                    word += i + 1;
                 }
                 output.Add(word);
             }
