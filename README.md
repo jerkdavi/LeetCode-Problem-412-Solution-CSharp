@@ -48,7 +48,7 @@ int n = int.Parse(Console.ReadLine());
 
 ---
 
-Next, the **FizzBuzz** function from **Solution** class is called. It takes an int (_int n_) and returns a List of strings (_List<string> output_). The returned List of strings is stored into a new IList of strings named **list**.
+Next, the **FizzBuzz** function from **Solution** class is called. It takes an int (_int n_) and returns a List of strings (_List\<string> output_). The returned List of strings is stored into a new IList of strings named **list**.
 The returned IList of strings is then printed out to the console by using the for loop and if statement.
 
 ```cs
@@ -67,7 +67,7 @@ for (int i = 0; i < list.Count; i++)
 At the end of the **Program** class there is next structure:
 
 - Console WriteLine -> where it displays that the code is done processing.
-- Console ReadLine -> where it waits for user input. Why does it wait for user input?
+- Console ReadLine -> where it waits for user input.
 
 ---
 
@@ -94,7 +94,7 @@ public class Solution
     {
 ```
 
-Firstly, the List of strings (List<string> **output**) is initialized by using basic List of strings initialization. It is initialized. This List of strings will be used to store the result of all modulus of numbers into and return it at the end of the function.
+Firstly, the List of strings (List\<string> **output**) is initialized by using basic List of strings initialization. It is instantiated. This List of strings will be used to store the result of all modulus of numbers into and return it at the end of the function.
 
 ```cs
 List<string> output = new List<string>();
@@ -143,13 +143,13 @@ if(word == "")
 }
 ```
 
-At the end of the **for** loop, **word** text input (string) is added to the List of strings (List<string> **output**).
+At the end of the **for** loop, the **word** text input (string) is added to the List of strings (List\<string> **output**).
 
 ```cs
 output.Add(word);
 ```
 
-At the end of the **Solution** class, the List of strings (List<string> **output**) is returned.
+At the end of the **Solution** class, the List of strings (List\<string> **output**) is returned.
 
 ```cs
 return output;
@@ -157,8 +157,13 @@ return output;
 
 ## POTENTIAL MISTAKES (I HAVE MADE)
 
+None that I am aware of.
 
+Any advice regarding making the code _MORE TIME AND SPACE EFFICIENT_ is **MORE THAN WELCOME**.
 
 ## RUNNING THE CODE - RESULT
+
+![image](https://github.com/jerkdavi/LeetCode-Problem-412-Solution-CSharp/assets/75536158/70a7c6ac-1383-4a1e-91b5-c84598d25217) ![image](https://github.com/jerkdavi/LeetCode-Problem-412-Solution-CSharp/assets/75536158/e61cb58d-ae08-4016-abd4-616eeabe36d7) ![image](https://github.com/jerkdavi/LeetCode-Problem-412-Solution-CSharp/assets/75536158/4f768fdb-0c5b-4edb-b5f1-8a446469da85)
+
 
 
